@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/2.7"
+	id		= "com.jimthurston.cambot"
+	version 	= "0.0.1">
+
+	<name>CamBot</name>
+
+	<description>
+		Used to control the Lego RCX CamBot.
+	</description>
+
+	<author href="http://www.jimthurston.com"
+		email="jimthurston@gmail.com">
+		Jim Thurston
+	</author>
+
+	<!-- don't have these yet
+	<icon src="icon.png" gap:role="default" />
+	<icon src="icons/ios/icon.png" width="57" height="57" />
+	<icon src="icons/ios/icon_at_2x.png" width="114" height="114" />
+	<icon src="icons/ios/icon-72.png" gap:platform="ios" width="72" height="72" />
+	<icon src="icons/ios/icon-72_at_2x.png" gap:platform="ios" width="144" height="144" />
+
+	<gap:splash src="assets/img/splash.png" width="320" height="480" />
+	<gap:splash src="assets/img/splash_at_2x.png" width="640" height="960" />
+
+	<gap:splash src="splash/ios/Default-Landscape.png" width="1024" height="768" />
+	<gap:splash src="splash/ios/Default-Portrait.png" width="768" height="1024" />
+	-->
+
+	<feature name="http://api.phonegap.com/2.7/file"/>
+	<feature name="http://api.phonegap.com/2.7/network"/>
+
+	<preference name="orientation" value="portrait" />
+</widget>
